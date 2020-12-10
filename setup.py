@@ -50,8 +50,8 @@ if platform.python_implementation() == "PyPy":
             "upgrade PyPy to use this library."
         )
 else:
-    requirements.append("cffi>=1.4.1")
-    setup_requirements.append("cffi>=1.4.1")
+    requirements.append("cffi==1.14.3")
+    setup_requirements.append("cffi==1.14.3")
 
 
 def here(*paths):
